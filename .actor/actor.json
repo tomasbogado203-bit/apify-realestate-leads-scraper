@@ -1,4 +1,4 @@
-﻿{
+{
     "actorSpecification": 1,
     "name": "real-estate-property-scraper",
     "title": "Real Estate & Property Listings Leads Scraper",
@@ -33,13 +33,27 @@
                     "display": {
                         "component": "table",
                         "columns": {
-                            "title": { "label": "Property Title" },
-                            "price": { "label": "Price" },
-                            "propertyType": { "label": "Type" },
-                            "location": { "label": "Location" },
-                            "bedrooms": { "label": "Bedrooms" },
-                            "agencyOrAgent": { "label": "Agent / Agency" },
-                            "listingUrl": { "label": "Listing URL" }
+                            "title": {
+                                "label": "Property Title"
+                            },
+                            "price": {
+                                "label": "Price"
+                            },
+                            "propertyType": {
+                                "label": "Type"
+                            },
+                            "location": {
+                                "label": "Location"
+                            },
+                            "bedrooms": {
+                                "label": "Bedrooms"
+                            },
+                            "agencyOrAgent": {
+                                "label": "Agent / Agency"
+                            },
+                            "listingUrl": {
+                                "label": "Listing URL"
+                            }
                         }
                     }
                 }
