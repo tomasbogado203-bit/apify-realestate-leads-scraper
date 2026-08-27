@@ -1,0 +1,12 @@
+﻿{
+    "actorOutputSchemaVersion": 1,
+    "title": "Real Estate Property Listings Output",
+    "properties": {
+        "results": {
+            "title": "Property Listings Dataset",
+            "type": "string",
+            "description": "Extracted real estate property listings, prices, locations, and agent contact details.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

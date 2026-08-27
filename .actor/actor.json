@@ -1,4 +1,4 @@
-{
+﻿{
     "actorSpecification": 1,
     "name": "real-estate-property-scraper",
     "title": "Real Estate & Property Listings Leads Scraper",
@@ -10,6 +10,7 @@
     "dockerfile": "../Dockerfile",
     "readme": "../README.md",
     "input": "./input_schema.json",
+    "output": "./output_schema.json",
     "storages": {
         "dataset": {
             "actorSpecification": 1,
