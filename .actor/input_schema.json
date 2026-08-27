@@ -1,0 +1,32 @@
+{
+    "title": "Real Estate Property Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "locations": {
+            "title": "Cities / Locations",
+            "type": "array",
+            "description": "Locations or cities to search (e.g. 'Miami FL', 'Madrid Spain', 'Buenos Aires Palermo', 'Austin Texas').",
+            "editor": "stringList",
+            "prefill": ["Apartments in Miami FL", "Casas en venta Madrid"]
+        },
+        "propertyType": {
+            "title": "Property Type",
+            "type": "string",
+            "description": "Type of property to search.",
+            "editor": "select",
+            "enum": ["all", "apartment", "house", "commercial", "land"],
+            "enumTitles": ["All Properties", "Apartment / Condo", "House / Villa", "Commercial", "Land / Lot"],
+            "default": "all"
+        },
+        "maxResults": {
+            "title": "Max Listings per Location",
+            "type": "integer",
+            "description": "Maximum number of property listings to extract per location.",
+            "minimum": 1,
+            "maximum": 5000,
+            "default": 30
+        }
+    },
+    "required": ["locations"]
+}

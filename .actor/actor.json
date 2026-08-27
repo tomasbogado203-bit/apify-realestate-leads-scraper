@@ -1,0 +1,53 @@
+{
+    "actorSpecification": 1,
+    "name": "real-estate-property-scraper",
+    "title": "Real Estate & Property Listings Leads Scraper",
+    "description": "Extract real estate property listings, house and apartment prices, square footage, locations, and real estate agent contact details. Export directly to CSV, Excel, and JSON.",
+    "version": "1.0.0",
+    "meta": {
+        "templateId": "python-start"
+    },
+    "dockerfile": "../Dockerfile",
+    "readme": "../README.md",
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "title": "Real Estate Properties Dataset",
+            "description": "Extracted property listings with prices, locations, and agent details.",
+            "views": {
+                "overview": {
+                    "title": "Overview",
+                    "transformation": {
+                        "fields": [
+                            "title",
+                            "price",
+                            "propertyType",
+                            "location",
+                            "bedrooms",
+                            "agencyOrAgent",
+                            "listingUrl"
+                        ]
+                    },
+                    "display": {
+                        "component": "table",
+                        "columns": {
+                            "title": { "label": "Property Title" },
+                            "price": { "label": "Price" },
+                            "propertyType": { "label": "Type" },
+                            "location": { "label": "Location" },
+                            "bedrooms": { "label": "Bedrooms" },
+                            "agencyOrAgent": { "label": "Agent / Agency" },
+                            "listingUrl": { "label": "Listing URL" }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "categories": [
+        "REAL_ESTATE",
+        "LEAD_GENERATION",
+        "BUSINESS"
+    ]
+}
