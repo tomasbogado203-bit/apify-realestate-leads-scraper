@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "real-estate-property-scraper",
-    "title": "Real Estate & Property Listings Leads Scraper",
+    "title": "Real Estate & Property Listings Scraper - Homes, Apartments & Agent Leads",
     "description": "Extract real estate property listings, house and apartment prices, square footage, locations, and real estate agent contact details. Export directly to CSV, Excel, and JSON.",
     "version": "0.0",
     "meta": {
