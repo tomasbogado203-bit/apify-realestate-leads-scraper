@@ -3,7 +3,7 @@
     "name": "real-estate-property-scraper",
     "title": "Real Estate & Property Listings Leads Scraper",
     "description": "Extract real estate property listings, house and apartment prices, square footage, locations, and real estate agent contact details. Export directly to CSV, Excel, and JSON.",
-    "version": "1.0.0",
+    "version": "0.0",
     "meta": {
         "templateId": "python-start"
     },
